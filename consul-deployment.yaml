@@ -1,0 +1,80 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: consul
+  name: consul
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: consul
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/edgex-network: "true"
+        io.kompose.service: consul
+    spec:
+      containers:
+      - env:
+        - name: EDGEX_DB
+          value: redis
+        - name: EDGEX_SECURE
+          value: "false"
+        image: edgexfoundry/docker-edgex-consul:1.2.0
+        imagePullPolicy: ""
+        name: edgex-core-consul
+        ports:
+        - containerPort: 8400
+        - containerPort: 8500
+        resources: {}
+        volumeMounts:
+        - mountPath: /consul/config
+          name: consul-config
+        - mountPath: /consul/data
+          name: consul-data
+      hostname: edgex-core-consul
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes:
+      - name: consul-config
+        persistentVolumeClaim:
+          claimName: consul-config
+      - name: consul-data
+        persistentVolumeClaim:
+          claimName: consul-data
+status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: consul
+  name: consul
+spec:
+  ports:
+  - name: "8400"
+    port: 8400
+    targetPort: 8400
+  - name: "8500"
+    port: 8500
+    targetPort: 8500
+  selector:
+    io.kompose.service: consul
+status:
+  loadBalancer: {}
+
