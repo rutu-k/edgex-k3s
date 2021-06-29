@@ -67,7 +67,84 @@ spec:
           claimName: db-data
 status: {}
 ---
+apiVersion: v1apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+spec:
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: edgex-redis
+        image: redis:5.0.8-alpine
+        env:
+        - name: Clients_Command_Host
+          value: edgex-core-command
+        - name: Clients_CoreData_Host
+          value: edgex-core-data
+        - name: Clients_Data_Host
+          value: edgex-core-data
+        - name: Clients_Metadata_Host
+          value: edgex-core-metadata
+        - name: Clients_Notifications_Host
+          value: edgex-support-notifications
+        - name: Clients_RulesEngine_Host
+          value: edgex-kuiper
+        - name: Clients_Scheduler_Host
+          value: edgex-support-scheduler
+        - name: Databases_Primary_Host
+          value: edgex-redis
+        - name: EDGEX_SECURITY_SECRET_STORE
+          value: "false"
+        - name: Logging_EnableRemote
+          value: "false"
+        - name: Registry_Host
+          value: edgex-core-consul
+        ports:
+        - containerPort: 6379
+        readinessProbe:
+          periodSeconds: 5
+          tcpSocket:
+            port: 6379
+        livenessProbe:
+          periodSeconds: 5
+          tcpSocket:
+            port: 6379
+        volumeMounts:
+        - mountPath: /data
+          name: db-data
+        resources:
+          limits:
+            memory: 256Mi
+            cpu: 125m
+          requests:
+            cpu: 70m
+            memory: 200Mi
+      hostname: edgex-redis
+      volumes:
+      - name: db-data
+        persistentVolumeClaim:
+          claimName: db-data
+---
 apiVersion: v1
+kind: Service
+metadata:
+  name: redis
+spec:
+  type: ClusterIP
+  selector:
+    app: redis
+  ports:
+  - name: redis
+    port: 6379
+    targetPort: 6379
+
 kind: Service
 metadata:
   annotations:
