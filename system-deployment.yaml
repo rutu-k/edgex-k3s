@@ -69,8 +69,7 @@ spec:
       serviceAccountName: ""
       volumes:
       - name: system-claim0
-        persistentVolumeClaim:
-          claimName: system-claim0
+        emptyDir: {}
 status: {}
 ---
 apiVersion: v1
