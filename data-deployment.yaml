@@ -41,7 +41,7 @@ spec:
         - name: Clients_Scheduler_Host
           value: edgex-support-scheduler
         - name: Databases_Primary_Host
-          value: edge-redis
+          value: edgex-redis
         - name: EDGEX_SECURITY_SECRET_STORE
           value: "false"
         - name: Logging_EnableRemote
