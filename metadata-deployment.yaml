@@ -7,7 +7,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: metadata
-  name: metadata
+  name: edgex-core-metadata
 spec:
   replicas: 1
   selector:
@@ -75,7 +75,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: metadata
-  name: metadata
+  name: edgex-core-metadata
 spec:
   ports:
   - name: "48081"

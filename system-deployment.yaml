@@ -7,7 +7,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: system
-  name: system
+  name: edgex-sys-mgmt-agent
 spec:
   replicas: 1
   selector:
@@ -81,7 +81,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: system
-  name: system
+  name: edgex-sys-mgmt-agent
 spec:
   ports:
   - name: "48090"

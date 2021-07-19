@@ -7,7 +7,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: app-service-mqtt
-  name: app-service-mqtt
+  name: edgex-app-service-configurable-mqtt
 spec:
   replicas: 1
   selector:
@@ -93,7 +93,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: app-service-mqtt
-  name: app-service-mqtt
+  name: edgex-app-service-configurable-mqtt
 spec:
   ports:
   - name: "48101"

@@ -7,7 +7,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: scheduler
-  name: scheduler
+  name: edgex-support-scheduler
 spec:
   replicas: 1
   selector:
@@ -65,3 +65,23 @@ spec:
       serviceAccountName: ""
       volumes: null
 status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: scheduler
+  name: edgex-support-scheduler
+spec:
+  ports:
+  - name: "48085"
+    port: 48085
+    targetPort: 48085
+  selector:
+    io.kompose.service: scheduler
+status:
+  loadBalancer: {}

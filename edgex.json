@@ -1,0 +1,3377 @@
+[
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Binding/PublishTopic",
+		"flags": 0,
+		"value": "ZXZlbnRz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Binding/SubscribeTopic",
+		"flags": 0,
+		"value": "ZXZlbnRz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Binding/Type",
+		"flags": 0,
+		"value": "bWVzc2FnZWJ1cw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Clients/CoreData/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Clients/CoreData/Port",
+		"flags": 0,
+		"value": "NDgwODA="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Clients/CoreData/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Database/BatchSize",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Database/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Database/MaxIdle",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Database/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Database/Port",
+		"flags": 0,
+		"value": "NjM3OQ=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Database/Timeout",
+		"flags": 0,
+		"value": "MzBz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Database/Type",
+		"flags": 0,
+		"value": "cmVkaXNkYg=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Database/Username",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/MessageBus/PublishHost/Host",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/MessageBus/PublishHost/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/MessageBus/PublishHost/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/MessageBus/SubscribeHost/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/MessageBus/SubscribeHost/Port",
+		"flags": 0,
+		"value": "NTU2Mw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/MessageBus/SubscribeHost/Protocol",
+		"flags": 0,
+		"value": "dGNw"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/MessageBus/Type",
+		"flags": 0,
+		"value": "emVybw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/Authentication/AuthType",
+		"flags": 0,
+		"value": "WC1WYXVsdC1Ub2tlbg=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/Path",
+		"flags": 0,
+		"value": "L3YxL3NlY3JldC9lZGdleC9hcHBzZXJ2aWNlLw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/Port",
+		"flags": 0,
+		"value": "ODIwMA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/Protocol",
+		"flags": 0,
+		"value": "aHR0cHM="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/RetryWaitPeriod",
+		"flags": 0,
+		"value": "MXM="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/RootCaCertPath",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9wa2kvRWRnZVhGb3VuZHJ5Q0EvRWRnZVhGb3VuZHJ5Q0EucGVt"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/ServerName",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStore/TokenFile",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9hc3NldHMvcmVzcC1pbml0Lmpzb24="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/Authentication/AuthType",
+		"flags": 0,
+		"value": "WC1WYXVsdC1Ub2tlbg=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/Path",
+		"flags": 0,
+		"value": "L3YxL3NlY3JldC9lZGdleC9hcHBzZXJ2aWNlLW1xdHQtZXhwb3J0Lw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/Port",
+		"flags": 0,
+		"value": "ODIwMA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/Protocol",
+		"flags": 0,
+		"value": "aHR0cHM="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/RetryWaitPeriod",
+		"flags": 0,
+		"value": "MXM="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/RootCaCertPath",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9wa2kvRWRnZVhGb3VuZHJ5Q0EvRWRnZVhGb3VuZHJ5Q0EucGVt"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/ServerName",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/SecretStoreExclusive/TokenFile",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9hc3NldHMvcmVzcC1pbml0Lmpzb24="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzBz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTVz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/HTTPSCert",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/HTTPSKey",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtYXBwLXNlcnZpY2UtY29uZmlndXJhYmxlLW1xdHQ="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/Port",
+		"flags": 0,
+		"value": "NDgxMDE="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/ReadMaxLimit",
+		"flags": 0,
+		"value": "MTAw"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/StartupMsg",
+		"flags": 0,
+		"value": "QXBwU2VydmljZUNvbmZpZ3VyYWJsZS1tcXR0LWV4cG9ydCBoYXMgU3RhcnRlZA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Service/Timeout",
+		"flags": 0,
+		"value": "NXM="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Startup/Duration",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Startup/Interval",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/DB/Path",
+		"flags": 0,
+		"value": "cmVkaXNkYg=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/DB/Secrets/password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/DB/Secrets/username",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/mqtt/Path",
+		"flags": 0,
+		"value": "bXF0dA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/mqtt/Secrets/cacert",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/mqtt/Secrets/clientcert",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/mqtt/Secrets/clientkey",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/mqtt/Secrets/password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/InsecureSecrets/mqtt/Secrets/username",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/ExecutionOrder",
+		"flags": 0,
+		"value": "VHJhbnNmb3JtVG9KU09OLCBNUVRUU2VuZCwgTWFya0FzUHVzaGVk"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Address",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Publisher",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Topic",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByDeviceName/Parameters/DeviceNames",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Address",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Publisher",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Topic",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/FilterByValueDescriptor/Parameters/ValueDescriptors",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Address",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Publisher",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/Topic",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/authmode",
+		"flags": 0,
+		"value": "bm9uZQ=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/autoreconnect",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/brokeraddress",
+		"flags": 0,
+		"value": "dGNwczovL2xvY2FsaG9zdDo4ODgz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/clientid",
+		"flags": 0,
+		"value": "bXljbGllbnRpZA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/persistOnError",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/qos",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/retain",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/secretpath",
+		"flags": 0,
+		"value": "bXF0dA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/skipverify",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSecretSend/Parameters/topic",
+		"flags": 0,
+		"value": "bXl0b3BpYw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Address",
+		"flags": 0,
+		"value": "YnJva2VyLmhpdmVtcS5jb20="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Port",
+		"flags": 0,
+		"value": "MTg4Mw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Protocol",
+		"flags": 0,
+		"value": "dGNw"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Publisher",
+		"flags": 0,
+		"value": "QXBwU2VydmljZUNvbmZpZ3VyYWJsZS1tcXR0LWV4cG9ydA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/Topic",
+		"flags": 0,
+		"value": "V2VhdGhlckRldGFpbHM="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Parameters/autoreconnect",
+		"flags": 0,
+		"value": "dHJ1ZQ=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Parameters/cert",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Parameters/key",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Parameters/persistOnError",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Parameters/qos",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MQTTSend/Parameters/retain",
+		"flags": 0,
+		"value": "dHJ1ZQ=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Address",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Publisher",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/Topic",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/MarkAsPushed/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Address",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Publisher",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/Topic",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/Functions/TransformToJSON/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/Pipeline/UseTargetTypeOfByteArray",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/StoreAndForward/Enabled",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/StoreAndForward/MaxRetryCount",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-mqtt-export/Writable/StoreAndForward/RetryInterval",
+		"flags": 0,
+		"value": "NW0="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Binding/PublishTopic",
+		"flags": 0,
+		"value": "ZXZlbnRz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Binding/SubscribeTopic",
+		"flags": 0,
+		"value": "ZXZlbnRz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Binding/Type",
+		"flags": 0,
+		"value": "bWVzc2FnZWJ1cw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Clients/CoreData/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Clients/CoreData/Port",
+		"flags": 0,
+		"value": "NDgwODA="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Clients/CoreData/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Database/BatchSize",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Database/Host",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Database/MaxIdle",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Database/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Database/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Database/Timeout",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Database/Type",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Database/Username",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/MessageBus/PublishHost/Host",
+		"flags": 0,
+		"value": "Kg=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/MessageBus/PublishHost/Port",
+		"flags": 0,
+		"value": "NTU2Ng=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/MessageBus/PublishHost/Protocol",
+		"flags": 0,
+		"value": "dGNw"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/MessageBus/SubscribeHost/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/MessageBus/SubscribeHost/Port",
+		"flags": 0,
+		"value": "NTU2Mw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/MessageBus/SubscribeHost/Protocol",
+		"flags": 0,
+		"value": "dGNw"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/MessageBus/Type",
+		"flags": 0,
+		"value": "emVybw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/Authentication/AuthType",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/Host",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/RetryWaitPeriod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/RootCaCertPath",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/ServerName",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStore/TokenFile",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/Authentication/AuthType",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/Host",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/RetryWaitPeriod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/RootCaCertPath",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/ServerName",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/SecretStoreExclusive/TokenFile",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzBz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTVz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/HTTPSCert",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/HTTPSKey",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtYXBwLXNlcnZpY2UtY29uZmlndXJhYmxlLXJ1bGVz"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/Port",
+		"flags": 0,
+		"value": "NDgxMDA="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/ReadMaxLimit",
+		"flags": 0,
+		"value": "MTAw"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/StartupMsg",
+		"flags": 0,
+		"value": "QXBwU2VydmljZS1ydWxlcy1lbmdpbmUgdXNpbmcgWk1RIE1lc3NhZ2UgQnVzIGhhcyBTdGFydGVk"
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Service/Timeout",
+		"flags": 0,
+		"value": "NXM="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Startup/Duration",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Startup/Interval",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/ExecutionOrder",
+		"flags": 0,
+		"value": "U2V0T3V0cHV0RGF0YQ=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Address",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Publisher",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/Topic",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Parameters/DeviceNames",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByDeviceName/Parameters/FilterOut",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Address",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Publisher",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/Topic",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Parameters/FilterOut",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/FilterByValueDescriptor/Parameters/ValueDescriptors",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Address",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/HTTPMethod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Id",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Name",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Publisher",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Timestamps/Created",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Timestamps/Modified",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Timestamps/Origin",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/Topic",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/Functions/SetOutputData/Addressable/User",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/Pipeline/UseTargetTypeOfByteArray",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/StoreAndForward/Enabled",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/StoreAndForward/MaxRetryCount",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/appservices/1.0/AppService-rules-engine/Writable/StoreAndForward/RetryInterval",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Clients/Metadata/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1tZXRhZGF0YQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Clients/Metadata/Port",
+		"flags": 0,
+		"value": "NDgwODE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Clients/Metadata/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Databases/Primary/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtcmVkaXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Databases/Primary/Name",
+		"flags": 0,
+		"value": "bWV0YWRhdGE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Databases/Primary/Password",
+		"flags": 0,
+		"value": "cGFzc3dvcmQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Databases/Primary/Port",
+		"flags": 0,
+		"value": "NjM3OQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Databases/Primary/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Databases/Primary/Type",
+		"flags": 0,
+		"value": "cmVkaXNkYg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Databases/Primary/Username",
+		"flags": 0,
+		"value": "bWV0YQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/Authentication/AuthType",
+		"flags": 0,
+		"value": "WC1WYXVsdC1Ub2tlbg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/Path",
+		"flags": 0,
+		"value": "L3YxL3NlY3JldC9lZGdleC9tZXRhZGF0YS8="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/Port",
+		"flags": 0,
+		"value": "ODIwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/Protocol",
+		"flags": 0,
+		"value": "aHR0cHM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/RetryWaitPeriod",
+		"flags": 0,
+		"value": "MXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/RootCaCertPath",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9wa2kvRWRnZVhGb3VuZHJ5Q0EvRWRnZVhGb3VuZHJ5Q0EucGVt"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/ServerName",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/SecretStore/TokenFile",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9hc3NldHMvcmVzcC1pbml0Lmpzb24="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTUwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb21tYW5k"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/MaxResultCount",
+		"flags": 0,
+		"value": "NTAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/Port",
+		"flags": 0,
+		"value": "NDgwODI="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/StartupMsg",
+		"flags": 0,
+		"value": "VGhpcyBpcyB0aGUgQ29yZSBDb21tYW5kIE1pY3Jvc2VydmljZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Service/Timeout",
+		"flags": 0,
+		"value": "NDUwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Startup/Duration",
+		"flags": 0,
+		"value": "MzA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Startup/Interval",
+		"flags": 0,
+		"value": "MQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-command/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Clients/Metadata/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1tZXRhZGF0YQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Clients/Metadata/Port",
+		"flags": 0,
+		"value": "NDgwODE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Clients/Metadata/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Databases/Primary/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtcmVkaXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Databases/Primary/Name",
+		"flags": 0,
+		"value": "Y29yZWRhdGE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Databases/Primary/Password",
+		"flags": 0,
+		"value": "cGFzc3dvcmQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Databases/Primary/Port",
+		"flags": 0,
+		"value": "NjM3OQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Databases/Primary/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Databases/Primary/Type",
+		"flags": 0,
+		"value": "cmVkaXNkYg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Databases/Primary/Username",
+		"flags": 0,
+		"value": "Y29yZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Host",
+		"flags": 0,
+		"value": "Kg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/AutoReconnect",
+		"flags": 0,
+		"value": "dHJ1ZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/ClientId",
+		"flags": 0,
+		"value": "Y29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/ConnectTimeout",
+		"flags": 0,
+		"value": "NQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/KeepAlive",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/Qos",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/Retained",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/SkipCertVerify",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Optional/Username",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Port",
+		"flags": 0,
+		"value": "NTU2Mw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Protocol",
+		"flags": 0,
+		"value": "dGNw"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Topic",
+		"flags": 0,
+		"value": "ZXZlbnRz"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/MessageQueue/Type",
+		"flags": 0,
+		"value": "emVybw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/Authentication/AuthType",
+		"flags": 0,
+		"value": "WC1WYXVsdC1Ub2tlbg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/Path",
+		"flags": 0,
+		"value": "L3YxL3NlY3JldC9lZGdleC9jb3JlZGF0YS8="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/Port",
+		"flags": 0,
+		"value": "ODIwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/Protocol",
+		"flags": 0,
+		"value": "aHR0cHM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/RetryWaitPeriod",
+		"flags": 0,
+		"value": "MXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/RootCaCertPath",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9wa2kvRWRnZVhGb3VuZHJ5Q0EvRWRnZVhGb3VuZHJ5Q0EucGVt"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/ServerName",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/SecretStore/TokenFile",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9hc3NldHMvcmVzcC1pbml0Lmpzb24="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTUwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/MaxResultCount",
+		"flags": 0,
+		"value": "NTAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/Port",
+		"flags": 0,
+		"value": "NDgwODA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/StartupMsg",
+		"flags": 0,
+		"value": "VGhpcyBpcyB0aGUgQ29yZSBEYXRhIE1pY3Jvc2VydmljZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Service/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Startup/Duration",
+		"flags": 0,
+		"value": "MzA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Startup/Interval",
+		"flags": 0,
+		"value": "MQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Writable/ChecksumAlgo",
+		"flags": 0,
+		"value": "eHhIYXNo"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Writable/DeviceUpdateLastConnected",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Writable/MetaDataCheck",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Writable/PersistData",
+		"flags": 0,
+		"value": "dHJ1ZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Writable/ServiceUpdateLastConnected",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-data/Writable/ValidateCheck",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/CoreData/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/CoreData/Port",
+		"flags": 0,
+		"value": "NDgwODA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/CoreData/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/Notifications/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtc3VwcG9ydC1ub3RpZmljYXRpb25z"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/Notifications/Port",
+		"flags": 0,
+		"value": "NDgwNjA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Clients/Notifications/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Databases/Primary/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtcmVkaXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Databases/Primary/Name",
+		"flags": 0,
+		"value": "bWV0YWRhdGE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Databases/Primary/Password",
+		"flags": 0,
+		"value": "cGFzc3dvcmQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Databases/Primary/Port",
+		"flags": 0,
+		"value": "NjM3OQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Databases/Primary/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Databases/Primary/Type",
+		"flags": 0,
+		"value": "cmVkaXNkYg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Databases/Primary/Username",
+		"flags": 0,
+		"value": "bWV0YQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Notifications/Content",
+		"flags": 0,
+		"value": "RGV2aWNlIHVwZGF0ZTog"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Notifications/Description",
+		"flags": 0,
+		"value": "TWV0YWRhdGEgZGV2aWNlIG5vdGljZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Notifications/Label",
+		"flags": 0,
+		"value": "bWV0YWRhdGE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Notifications/PostDeviceChanges",
+		"flags": 0,
+		"value": "dHJ1ZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Notifications/Sender",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1tZXRhZGF0YQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Notifications/Slug",
+		"flags": 0,
+		"value": "ZGV2aWNlLWNoYW5nZS0="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/Authentication/AuthType",
+		"flags": 0,
+		"value": "WC1WYXVsdC1Ub2tlbg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/Path",
+		"flags": 0,
+		"value": "L3YxL3NlY3JldC9lZGdleC9tZXRhZGF0YS8="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/Port",
+		"flags": 0,
+		"value": "ODIwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/Protocol",
+		"flags": 0,
+		"value": "aHR0cHM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/RetryWaitPeriod",
+		"flags": 0,
+		"value": "MXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/RootCaCertPath",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9wa2kvRWRnZVhGb3VuZHJ5Q0EvRWRnZVhGb3VuZHJ5Q0EucGVt"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/ServerName",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/SecretStore/TokenFile",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9hc3NldHMvcmVzcC1pbml0Lmpzb24="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTUwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1tZXRhZGF0YQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/MaxResultCount",
+		"flags": 0,
+		"value": "NTAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/Port",
+		"flags": 0,
+		"value": "NDgwODE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/StartupMsg",
+		"flags": 0,
+		"value": "VGhpcyBpcyB0aGUgRWRnZVggQ29yZSBNZXRhZGF0YSBNaWNyb3NlcnZpY2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Service/Timeout",
+		"flags": 0,
+		"value": "MjAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Startup/Duration",
+		"flags": 0,
+		"value": "MzA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Startup/Interval",
+		"flags": 0,
+		"value": "MQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Writable/EnableValueDescriptorManagement",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-core-metadata/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Databases/Primary/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtcmVkaXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Databases/Primary/Name",
+		"flags": 0,
+		"value": "bm90aWZpY2F0aW9ucw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Databases/Primary/Password",
+		"flags": 0,
+		"value": "cGFzc3dvcmQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Databases/Primary/Port",
+		"flags": 0,
+		"value": "NjM3OQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Databases/Primary/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Databases/Primary/Type",
+		"flags": 0,
+		"value": "cmVkaXNkYg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Databases/Primary/Username",
+		"flags": 0,
+		"value": "bm90aWZpY2F0aW9ucw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/Authentication/AuthType",
+		"flags": 0,
+		"value": "WC1WYXVsdC1Ub2tlbg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/Path",
+		"flags": 0,
+		"value": "L3YxL3NlY3JldC9lZGdleC9ub3RpZmljYXRpb25zLw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/Port",
+		"flags": 0,
+		"value": "ODIwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/Protocol",
+		"flags": 0,
+		"value": "aHR0cHM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/RetryWaitPeriod",
+		"flags": 0,
+		"value": "MXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/RootCaCertPath",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9wa2kvRWRnZVhGb3VuZHJ5Q0EvRWRnZVhGb3VuZHJ5Q0EucGVt"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/ServerName",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/SecretStore/TokenFile",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9hc3NldHMvcmVzcC1pbml0Lmpzb24="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTUwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtc3VwcG9ydC1ub3RpZmljYXRpb25z"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/MaxResultCount",
+		"flags": 0,
+		"value": "NTAwMDAw"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/Port",
+		"flags": 0,
+		"value": "NDgwNjA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/StartupMsg",
+		"flags": 0,
+		"value": "VGhpcyBpcyB0aGUgU3VwcG9ydCBOb3RpZmljYXRpb25zIE1pY3Jvc2VydmljZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Service/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Smtp/EnableSelfSignedCert",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Smtp/Host",
+		"flags": 0,
+		"value": "c210cC5nbWFpbC5jb20="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Smtp/Password",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Smtp/Port",
+		"flags": 0,
+		"value": "NTg3"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Smtp/Sender",
+		"flags": 0,
+		"value": "amRvZUBnbWFpbC5jb20="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Smtp/Subject",
+		"flags": 0,
+		"value": "RWRnZVggTm90aWZpY2F0aW9u"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Smtp/Username",
+		"flags": 0,
+		"value": "dXNlcm5hbWVAbWFpbC5leGFtcGxlLmNvbQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Startup/Duration",
+		"flags": 0,
+		"value": "MzA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Startup/Interval",
+		"flags": 0,
+		"value": "MQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-notifications/Writable/ResendLimit",
+		"flags": 0,
+		"value": "Mg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Databases/Primary/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtcmVkaXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Databases/Primary/Name",
+		"flags": 0,
+		"value": "c2NoZWR1bGVy"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Databases/Primary/Password",
+		"flags": 0,
+		"value": "cGFzc3dvcmQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Databases/Primary/Port",
+		"flags": 0,
+		"value": "NjM3OQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Databases/Primary/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Databases/Primary/Type",
+		"flags": 0,
+		"value": "cmVkaXNkYg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Databases/Primary/Username",
+		"flags": 0,
+		"value": "c2NoZWR1bGVy"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Interval",
+		"flags": 0,
+		"value": "bWlkbmlnaHQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Method",
+		"flags": 0,
+		"value": "REVMRVRF"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Name",
+		"flags": 0,
+		"value": "c2NydWItYWdlZC1ldmVudHM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Parameters",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Path",
+		"flags": 0,
+		"value": "L2FwaS92MS9ldmVudC9yZW1vdmVvbGQvYWdlLzYwNDgwMDAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Port",
+		"flags": 0,
+		"value": "NDgwODA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubAged/Target",
+		"flags": 0,
+		"value": "Y29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Interval",
+		"flags": 0,
+		"value": "bWlkbmlnaHQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Method",
+		"flags": 0,
+		"value": "REVMRVRF"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Name",
+		"flags": 0,
+		"value": "c2NydWItcHVzaGVkLWV2ZW50cw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Parameters",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Path",
+		"flags": 0,
+		"value": "L2FwaS92MS9ldmVudC9zY3J1Yg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Port",
+		"flags": 0,
+		"value": "NDgwODA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/IntervalActions/ScrubPushed/Target",
+		"flags": 0,
+		"value": "Y29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Intervals/Midnight/Cron",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Intervals/Midnight/End",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Intervals/Midnight/Frequency",
+		"flags": 0,
+		"value": "MjRo"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Intervals/Midnight/Name",
+		"flags": 0,
+		"value": "bWlkbmlnaHQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Intervals/Midnight/RunOnce",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Intervals/Midnight/Start",
+		"flags": 0,
+		"value": "MjAxODAxMDFUMDAwMDAw"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MTA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/Authentication/AuthType",
+		"flags": 0,
+		"value": "WC1WYXVsdC1Ub2tlbg=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/Path",
+		"flags": 0,
+		"value": "L3YxL3NlY3JldC9lZGdleC9zY2hlZHVsZXIv"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/Port",
+		"flags": 0,
+		"value": "ODIwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/Protocol",
+		"flags": 0,
+		"value": "aHR0cHM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/RetryWaitPeriod",
+		"flags": 0,
+		"value": "MXM="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/RootCaCertPath",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9wa2kvRWRnZVhGb3VuZHJ5Q0EvRWRnZVhGb3VuZHJ5Q0EucGVt"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/ServerName",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/SecretStore/TokenFile",
+		"flags": 0,
+		"value": "L3ZhdWx0L2NvbmZpZy9hc3NldHMvcmVzcC1pbml0Lmpzb24="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTUwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtc3VwcG9ydC1zY2hlZHVsZXI="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/MaxResultCount",
+		"flags": 0,
+		"value": "NTAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/Port",
+		"flags": 0,
+		"value": "NDgwODU="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/StartupMsg",
+		"flags": 0,
+		"value": "VGhpcyBpcyB0aGUgU3VwcG9ydCBTY2hlZHVsZXIgTWljcm9zZXJ2aWNl"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Service/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Startup/Duration",
+		"flags": 0,
+		"value": "MzA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Startup/Interval",
+		"flags": 0,
+		"value": "MQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-support-scheduler/Writable/ScheduleIntervalTime",
+		"flags": 0,
+		"value": "NTAw"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Command/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb21tYW5k"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Command/Port",
+		"flags": 0,
+		"value": "NDgwODI="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Command/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/CoreData/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/CoreData/Port",
+		"flags": 0,
+		"value": "NDgwODA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/CoreData/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Metadata/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1tZXRhZGF0YQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Metadata/Port",
+		"flags": 0,
+		"value": "NDgwODE="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Metadata/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Notifications/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtc3VwcG9ydC1ub3RpZmljYXRpb25z"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Notifications/Port",
+		"flags": 0,
+		"value": "NDgwNjA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Notifications/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Scheduler/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtc3VwcG9ydC1zY2hlZHVsZXI="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Scheduler/Port",
+		"flags": 0,
+		"value": "NDgwODU="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Clients/Scheduler/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/ExecutorPath",
+		"flags": 0,
+		"value": "L3N5cy1tZ210LWV4ZWN1dG9y"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/FormatSpecifier",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/MetricsMechanism",
+		"flags": 0,
+		"value": "ZXhlY3V0b3I="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/AdditionalRetryAttempts",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/Authentication/AuthToken",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/Authentication/AuthType",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/Host",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/Namespace",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/Path",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/Port",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/Protocol",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/RetryWaitPeriod",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/RootCaCertPath",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/ServerName",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/SecretStore/TokenFile",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTUwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtc3lzLW1nbXQtYWdlbnQ="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/MaxResultCount",
+		"flags": 0,
+		"value": "NTAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/Port",
+		"flags": 0,
+		"value": "NDgwOTA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/StartupMsg",
+		"flags": 0,
+		"value": "VGhpcyBpcyB0aGUgU3lzdGVtIE1hbmFnZW1lbnQgQWdlbnQgU2VydmljZQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Service/Timeout",
+		"flags": 0,
+		"value": "MjAwMDA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Startup/Duration",
+		"flags": 0,
+		"value": "MzA="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Startup/Interval",
+		"flags": 0,
+		"value": "MQ=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	},
+	{
+		"key": "edgex/core/1.0/edgex-sys-mgmt-agent/Writable/ResendLimit",
+		"flags": 0,
+		"value": "Mg=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Data/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1kYXRh"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Data/Port",
+		"flags": 0,
+		"value": "NDgwODA="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Data/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Logging/Host",
+		"flags": 0,
+		"value": "bG9jYWxob3N0"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Logging/Port",
+		"flags": 0,
+		"value": "NDgwNjE="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Logging/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Metadata/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1tZXRhZGF0YQ=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Metadata/Port",
+		"flags": 0,
+		"value": "NDgwODE="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Clients/Metadata/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/DataTransform",
+		"flags": 0,
+		"value": "dHJ1ZQ=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/Discovery/Enabled",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/Discovery/Interval",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/InitCmd",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/InitCmdArgs",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/MaxCmdOps",
+		"flags": 0,
+		"value": "MTI4"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/MaxCmdValueLen",
+		"flags": 0,
+		"value": "MjU2"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/ProfilesDir",
+		"flags": 0,
+		"value": "Li9yZXM="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/RemoveCmd",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/RemoveCmdArgs",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Device/UpdateLastConnected",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/0/Description",
+		"flags": 0,
+		"value": "UkVTVGZ1bCBEZXZpY2UgdGhhdCBzZW5kcyBpbiBKU09OIGRhdGE="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/0/Labels/0",
+		"flags": 0,
+		"value": "cmVzdA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/0/Labels/1",
+		"flags": 0,
+		"value": "anNvbg=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/0/Name",
+		"flags": 0,
+		"value": "c2FtcGxlLWpzb24="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/0/Profile",
+		"flags": 0,
+		"value": "c2FtcGxlLWpzb24="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/1/Description",
+		"flags": 0,
+		"value": "UkVTVGZ1bCBEZXZpY2UgdGhhdCBzZW5kcyBpbiBiaW5hcnkgaW1hZ2UgZGF0YQ=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/1/Labels/0",
+		"flags": 0,
+		"value": "cmVzdA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/1/Labels/1",
+		"flags": 0,
+		"value": "YmluYXJ5"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/1/Labels/2",
+		"flags": 0,
+		"value": "aW1hZ2U="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/1/Name",
+		"flags": 0,
+		"value": "c2FtcGxlLWltYWdl"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/1/Profile",
+		"flags": 0,
+		"value": "c2FtcGxlLWltYWdl"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/2/Description",
+		"flags": 0,
+		"value": "UkVTVGZ1bCBEZXZpY2UgdGhhdCBzZW5kcyBpbiBudW1lcmljIGRhdGE="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/2/Labels/0",
+		"flags": 0,
+		"value": "cmVzdA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/2/Labels/1",
+		"flags": 0,
+		"value": "bnVtZXJpYw=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/2/Labels/2",
+		"flags": 0,
+		"value": "ZmxvYXQ="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/2/Labels/3",
+		"flags": 0,
+		"value": "aW50"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/2/Name",
+		"flags": 0,
+		"value": "c2FtcGxlLW51bWVyaWM="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/DeviceList/2/Profile",
+		"flags": 0,
+		"value": "c2FtcGxlLW51bWVyaWM="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Logging/EnableRemote",
+		"flags": 0,
+		"value": "ZmFsc2U="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Logging/File",
+		"flags": 0,
+		"value": ""
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Registry/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtY29yZS1jb25zdWw="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Registry/Port",
+		"flags": 0,
+		"value": "ODUwMA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Registry/Type",
+		"flags": 0,
+		"value": "Y29uc3Vs"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/AsyncBufferSize",
+		"flags": 0,
+		"value": "MTY="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/BootTimeout",
+		"flags": 0,
+		"value": "MzAwMDA="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/CheckInterval",
+		"flags": 0,
+		"value": "MTBz"
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/ClientMonitor",
+		"flags": 0,
+		"value": "MTUwMDA="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/ConnectRetries",
+		"flags": 0,
+		"value": "MjA="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/EnableAsyncReadings",
+		"flags": 0,
+		"value": "dHJ1ZQ=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/Host",
+		"flags": 0,
+		"value": "ZWRnZXgtZGV2aWNlLXJlc3Q="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/MaxResultCount",
+		"flags": 0,
+		"value": "MA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/Port",
+		"flags": 0,
+		"value": "NDk5ODY="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/Protocol",
+		"flags": 0,
+		"value": "aHR0cA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/StartupMsg",
+		"flags": 0,
+		"value": "UkVTVCBkZXZpY2Ugc3RhcnRlZA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Service/Timeout",
+		"flags": 0,
+		"value": "NTAwMA=="
+	},
+	{
+		"key": "edgex/devices/1.0/edgex-device-rest/Writable/LogLevel",
+		"flags": 0,
+		"value": "SU5GTw=="
+	}
+]

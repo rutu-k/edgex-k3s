@@ -7,7 +7,7 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: data
-  name: data
+  name: edgex-core-data
 spec:
   replicas: 1
   selector:
@@ -41,7 +41,7 @@ spec:
         - name: Clients_Scheduler_Host
           value: edgex-support-scheduler
         - name: Databases_Primary_Host
-          value: edgex-redis
+          value: edge-redis
         - name: EDGEX_SECURITY_SECRET_STORE
           value: "false"
         - name: Logging_EnableRemote
@@ -71,17 +71,17 @@ metadata:
     kompose.version: 1.21.0 (992df58d8)
   creationTimestamp: null
   labels:
-    io.kompose.service: consul
-  name: consul
+    io.kompose.service: data
+  name: edgex-core-data
 spec:
   ports:
-  - name: "8400"
-    port: 8400
-    targetPort: 8400
-  - name: "8500"
-    port: 8500
-    targetPort: 8500
+  - name: "5563"
+    port: 5563
+    targetPort: 5563
+  - name: "48080"
+    port: 48080
+    targetPort: 48080
   selector:
-    io.kompose.service: consul
+    io.kompose.service: data
 status:
   loadBalancer: {}
