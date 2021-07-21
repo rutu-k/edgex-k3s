@@ -74,6 +74,7 @@ metadata:
     io.kompose.service: data
   name: edgex-core-data
 spec:
+  type: NodePort
   ports:
   - name: "5563"
     port: 5563

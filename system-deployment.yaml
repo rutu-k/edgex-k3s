@@ -83,6 +83,7 @@ metadata:
     io.kompose.service: system
   name: edgex-sys-mgmt-agent
 spec:
+  type: NodePort
   ports:
   - name: "48090"
     port: 48090

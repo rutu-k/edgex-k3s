@@ -64,6 +64,7 @@ metadata:
     io.kompose.service: rulesengine
   name: edgex-kuiper
 spec:
+  type: NodePort
   ports:
   - name: "48075"
     port: 48075

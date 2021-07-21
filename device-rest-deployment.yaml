@@ -73,6 +73,7 @@ metadata:
     io.kompose.service: device-rest
   name: edgex-device-rest
 spec:
+  type: NodePort
   ports:
   - name: "49986"
     port: 49986

@@ -95,6 +95,7 @@ metadata:
     io.kompose.service: app-service-mqtt
   name: edgex-app-service-configurable-mqtt
 spec:
+  type: NodePort
   ports:
   - name: "48101"
     port: 48101

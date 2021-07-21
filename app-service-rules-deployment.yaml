@@ -81,6 +81,7 @@ metadata:
     io.kompose.service: app-service-rules
   name: edgex-app-service-configurable-rules
 spec:
+  type: NodePort
   ports:
   - name: "48100"
     port: 48100
