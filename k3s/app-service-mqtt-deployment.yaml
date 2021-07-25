@@ -111,7 +111,7 @@ metadata:
   name: edgex-app-service-configurable-mqtt
   annotations:
     kubernetes.io/ingress.class: "traefik"
-    traefik.ingress.kubernetes.io/rule-type: PathPrefixStrip
+    traefik.ingress.kubernetes.io/rule-type: Path
 spec:
   rules:
   - http:
