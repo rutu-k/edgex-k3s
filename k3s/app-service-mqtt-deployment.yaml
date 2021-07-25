@@ -117,6 +117,9 @@ spec:
   - http:
       paths:
       - path: /app-service-mqtt
+        pathType: Prefix
         backend:
-          serviceName: edgex-app-service-configurable-mqtt
-          servicePort: 48101
+          service:
+            name: edgex-app-service-configurable-mqtt
+            port:
+              number: 48101

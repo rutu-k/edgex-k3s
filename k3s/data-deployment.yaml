@@ -99,6 +99,9 @@ spec:
   - http:
       paths:
       - path: /core-data
+        pathType: Prefix
         backend:
-          serviceName: edgex-core-data
-          servicePort: 48080
+          service:
+            name: edgex-core-data
+            port: 
+              number: 48080

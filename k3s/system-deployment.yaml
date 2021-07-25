@@ -105,6 +105,9 @@ spec:
   - http:
       paths:
       - path: /system
+        pathType: Prefix
         backend:
-          serviceName: edgex-sys-mgmt-agent
-          servicePort: 48090
+          service:
+            name: edgex-sys-mgmt-agent
+            port:
+              number: 48090

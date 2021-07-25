@@ -99,6 +99,9 @@ spec:
   - http:
       paths:
       - path: /scheduler
+        pathType: Prefix
         backend:
-          serviceName: edgex-support-scheduler
-          servicePort: 48085
+          service:
+            name: edgex-support-scheduler
+            port:
+              number: 48085

@@ -103,6 +103,9 @@ spec:
   - http:
       paths:
       - path: /app-service-rules
+        pathType: Prefix
         backend:
-          serviceName: edgex-app-service-configurable-rules
-          servicePort: 48100
+          service:
+            name: edgex-app-service-configurable-rules
+            port:
+              number: 48100

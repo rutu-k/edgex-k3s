@@ -95,6 +95,9 @@ spec:
   - http:
       paths:
       - path: /support-notifications
+        pathType: Prefix
         backend:
-          serviceName: edgex-support-notifications
-          servicePort: 48060
+          service:
+            name: edgex-support-notifications
+            port:
+              number: 48060

@@ -95,6 +95,9 @@ spec:
   - http:
       paths:
       - path: /core-command
+        pathType: Prefix
         backend:
-          serviceName: edgex-core-command
-          servicePort: 48082
+          service:
+            name: edgex-core-command
+            port: 
+              number: 48082

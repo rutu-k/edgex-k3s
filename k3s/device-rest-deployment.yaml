@@ -95,6 +95,9 @@ spec:
   - http:
       paths:
       - path: /device-rest
+        pathType: Prefix
         backend:
-          serviceName: edgex-device-rest
-          servicePort: 49986
+          service:
+            name: edgex-device-rest
+            port: 
+              number: 49986

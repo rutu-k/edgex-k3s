@@ -99,6 +99,9 @@ spec:
   - http:
       paths:
       - path: /core-metadata
+        pathType: Prefix
         backend:
-          serviceName: edgex-core-metadata
-          servicePort: 48081
+          service:
+            name: edgex-core-metadata
+            port:
+              number: 48081
