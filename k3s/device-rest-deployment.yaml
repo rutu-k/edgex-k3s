@@ -1,0 +1,100 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: device-rest
+  name: edgex-device-rest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: device-rest
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/edgex-network: "true"
+        io.kompose.service: device-rest
+    spec:
+      containers:
+      - env:
+        - name: Clients_Command_Host
+          value: edgex-core-command
+        - name: Clients_CoreData_Host
+          value: edgex-core-data
+        - name: Clients_Data_Host
+          value: edgex-core-data
+        - name: Clients_Metadata_Host
+          value: edgex-core-metadata
+        - name: Clients_Notifications_Host
+          value: edgex-support-notifications
+        - name: Clients_RulesEngine_Host
+          value: edgex-kuiper
+        - name: Clients_Scheduler_Host
+          value: edgex-support-scheduler
+        - name: Databases_Primary_Host
+          value: edgex-redis
+        - name: EDGEX_SECURITY_SECRET_STORE
+          value: "false"
+        - name: Logging_EnableRemote
+          value: "false"
+        - name: Registry_Host
+          value: edgex-core-consul
+        - name: Service_Host
+          value: edgex-device-rest
+        image: edgexfoundry/docker-device-rest-go:1.1.1
+        imagePullPolicy: ""
+        name: edgex-device-rest
+        ports:
+        - containerPort: 49986
+        resources: {}
+      hostname: edgex-device-rest
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes: null
+status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: device-rest
+  name: edgex-device-rest
+spec:
+  type: NodePort
+  ports:
+  - name: "49986"
+    port: 49986
+    targetPort: 49986
+  selector:
+    io.kompose.service: device-rest
+status:
+  loadBalancer: {}
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: edgex-device-rest
+  annotations:
+    kubernetes.io/ingress.class: "traefik"
+    traefik.frontend.rule.type: PathPrefixStrip
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /device-rest
+        backend:
+          serviceName: edgex-device-rest
+          servicePort: 49986
