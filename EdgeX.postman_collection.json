@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "ae4ed16e-c438-4ab3-9f9a-a46f855dd7b7",
+		"name": "EdgeX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Value Descriptor Manual",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"temperature\",\n    \"description\": \"Ambient temperature in Celsius\",\n    \"min\": \"-50\",\n    \"max\": \"100\",\n    \"type\": \"Int64\",\n    \"uomLabel\": \"temperature\",\n    \"defaultValue\": \"0\",\n    \"formatting\": \"%s\",\n    \"labels\": [\n        \"environment\",\n        \"temperature\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.109:48080/api/v1/valuedescriptor",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"109"
+					],
+					"port": "48080",
+					"path": [
+						"api",
+						"v1",
+						"valuedescriptor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Device Profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "sensorClusterDeviceProfile.yaml"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://192.168.0.109:48081/api/v1/deviceprofile/uploadfile",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"109"
+					],
+					"port": "48081",
+					"path": [
+						"api",
+						"v1",
+						"deviceprofile",
+						"uploadfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Device",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Temp_and_Humidity_sensor_cluster_01\",\n    \"description\": \"Raspberry Pi sensor cluster\",\n    \"adminState\": \"unlocked\",\n    \"operatingState\": \"enabled\",\n    \"protocols\": {\n        \"example\": {\n            \"host\": \"dummy\",\n            \"port\": \"1234\",\n            \"unitID\": \"1\"\n        }\n    },\n    \"labels\": [\n        \"Humidity sensor\",\n        \"Temperature sensor\",\n        \"DHT11\"\n    ],\n    \"location\": \"Tokyo\",\n    \"service\": {\n        \"name\": \"edgex-device-rest\"\n    },\n    \"profile\": {\n        \"name\": \"SensorCluster\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.109:48081/api/v1/device",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"109"
+					],
+					"port": "48081",
+					"path": [
+						"api",
+						"v1",
+						"device"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Count Event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.49.2:31071/api/v1/event/count",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"49",
+						"2"
+					],
+					"port": "31071",
+					"path": [
+						"api",
+						"v1",
+						"event",
+						"count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post sensor Value",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "30"
+				},
+				"url": {
+					"raw": "http://192.168.0.109:49986/api/v1/resource/Temp_and_Humidity_sensor_cluster_01/temperature",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"109"
+					],
+					"port": "49986",
+					"path": [
+						"api",
+						"v1",
+						"resource",
+						"Temp_and_Humidity_sensor_cluster_01",
+						"temperature"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Temperature Reading",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get Value Descriptor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get device profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
