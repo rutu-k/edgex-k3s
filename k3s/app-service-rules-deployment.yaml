@@ -86,6 +86,7 @@ spec:
   - name: "48100"
     port: 48100
     targetPort: 48100
+    nodePort: 30136
   selector:
     io.kompose.service: app-service-rules
 status:

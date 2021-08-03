@@ -78,6 +78,7 @@ spec:
   - name: "49986"
     port: 49986
     targetPort: 49986
+    nodePort: 32536
   selector:
     io.kompose.service: device-rest
 status:

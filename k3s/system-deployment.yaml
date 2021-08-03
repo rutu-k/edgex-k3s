@@ -88,6 +88,7 @@ spec:
   - name: "48090"
     port: 48090
     targetPort: 48090
+    nodePort: 31736
   selector:
     io.kompose.service: system
 status:

@@ -79,9 +79,11 @@ spec:
   - name: "5563"
     port: 5563
     targetPort: 5563
+    nodePort: 32220
   - name: "48080"
     port: 48080
     targetPort: 48080
+    nodePort: 31931
   selector:
     io.kompose.service: data
 status:

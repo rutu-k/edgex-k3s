@@ -69,9 +69,11 @@ spec:
   - name: "48075"
     port: 48075
     targetPort: 48075
+    nodePort: 30082
   - name: "20498"
     port: 20498
     targetPort: 20498
+    nodePort: 31868
   selector:
     io.kompose.service: rulesengine
 status:

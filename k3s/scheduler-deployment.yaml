@@ -82,6 +82,7 @@ spec:
   - name: "48085"
     port: 48085
     targetPort: 48085
+    nodePort: 31497
   selector:
     io.kompose.service: scheduler
 status:

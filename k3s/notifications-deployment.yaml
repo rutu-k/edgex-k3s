@@ -78,6 +78,7 @@ spec:
   - name: "48060"
     port: 48060
     targetPort: 48060
+    nodePort: 32680
   selector:
     io.kompose.service: notifications
 status:

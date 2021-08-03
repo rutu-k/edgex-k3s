@@ -82,6 +82,7 @@ spec:
   - name: "48081"
     port: 48081
     targetPort: 48081
+    nodePort: 30220
   selector:
     io.kompose.service: metadata
 status:

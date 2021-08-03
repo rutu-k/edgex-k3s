@@ -78,6 +78,7 @@ spec:
   - name: "48082"
     port: 48082
     targetPort: 48082
+    nodePort: 32400
   selector:
     io.kompose.service: command
 status:
