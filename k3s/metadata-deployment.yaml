@@ -105,4 +105,4 @@ spec:
           service:
             name: edgex-core-metadata
             port:
-              number: 48081
+              number: 30220

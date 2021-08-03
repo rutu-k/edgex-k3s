@@ -101,4 +101,4 @@ spec:
           service:
             name: edgex-core-command
             port: 
-              number: 48082
+              number: 32400

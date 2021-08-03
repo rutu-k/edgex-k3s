@@ -101,4 +101,4 @@ spec:
           service:
             name: edgex-support-notifications
             port:
-              number: 48060
+              number: 32680

@@ -106,4 +106,4 @@ spec:
           service:
             name: edgex-core-data
             port: 
-              number: 48080
+              number: 31931

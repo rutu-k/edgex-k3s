@@ -101,4 +101,4 @@ spec:
           service:
             name: edgex-device-rest
             port: 
-              number: 49986
+              number: 32536

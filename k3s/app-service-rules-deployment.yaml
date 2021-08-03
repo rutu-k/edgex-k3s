@@ -109,4 +109,4 @@ spec:
           service:
             name: edgex-app-service-configurable-rules
             port:
-              number: 48100
+              number: 30136

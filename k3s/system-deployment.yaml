@@ -111,4 +111,4 @@ spec:
           service:
             name: edgex-sys-mgmt-agent
             port:
-              number: 48090
+              number: 31736

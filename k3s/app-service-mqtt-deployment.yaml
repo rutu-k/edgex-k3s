@@ -123,4 +123,4 @@ spec:
           service:
             name: edgex-app-service-configurable-mqtt
             port:
-              number: 48101
+              number: 32294

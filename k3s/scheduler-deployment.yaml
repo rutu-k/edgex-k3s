@@ -105,4 +105,4 @@ spec:
           service:
             name: edgex-support-scheduler
             port:
-              number: 48085
+              number: 31497
