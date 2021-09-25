@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"temperature\",\n    \"description\": \"Ambient temperature in Celsius\",\n    \"min\": \"-50\",\n    \"max\": \"100\",\n    \"type\": \"Int64\",\n    \"uomLabel\": \"temperature\",\n    \"defaultValue\": \"0\",\n    \"formatting\": \"%s\",\n    \"labels\": [\n        \"environment\",\n        \"temperature\"\n    ]\n}",
+					"raw": "{\n    \"name\": \"temperature\",\n    \"description\": \"Ambient temperature in percent\",\n    \"min\": \"-50\",\n    \"max\": \"100\",\n    \"type\": \"Int64\",\n    \"uomLabel\": \"temperature\",\n    \"defaultValue\": \"0\",\n    \"formatting\": \"%s\",\n    \"labels\": [\n        \"environment\",\n        \"temperature\"\n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -20,15 +20,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.0.109:48080/api/v1/valuedescriptor",
+					"raw": "http://192.168.1.179:31931/api/v1/valuedescriptor",
 					"protocol": "http",
 					"host": [
 						"192",
 						"168",
-						"0",
-						"109"
+						"1",
+						"179"
 					],
-					"port": "48080",
+					"port": "31931",
 					"path": [
 						"api",
 						"v1",
@@ -80,7 +80,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Temp_and_Humidity_sensor_cluster_01\",\n    \"description\": \"Raspberry Pi sensor cluster\",\n    \"adminState\": \"unlocked\",\n    \"operatingState\": \"enabled\",\n    \"protocols\": {\n        \"example\": {\n            \"host\": \"dummy\",\n            \"port\": \"1234\",\n            \"unitID\": \"1\"\n        }\n    },\n    \"labels\": [\n        \"Humidity sensor\",\n        \"Temperature sensor\",\n        \"DHT11\"\n    ],\n    \"location\": \"Tokyo\",\n    \"service\": {\n        \"name\": \"edgex-device-rest\"\n    },\n    \"profile\": {\n        \"name\": \"SensorCluster\"\n    }\n}",
+					"raw": "{\n    \"name\": \"Temp_and_Humidity_sensor_cluster_01\",\n    \"description\": \"Raspberry Pi sensor cluster\",\n    \"adminState\": \"unlocked\",\n    \"operatingState\": \"enabled\",\n    \"protocols\": {\n        \"example\": {\n            \"host\": \"dummy\",\n            \"port\": \"1234\",\n            \"unitID\": \"1\"\n        }\n    },\n    \"labels\": [\n        \"Humidity sensor\",\n        \"Temperature sensor\",\n        \"DHT22\"\n    ],\n    \"location\": \"India\",\n    \"service\": {\n        \"name\": \"edgex-device-rest\"\n    },\n    \"profile\": {\n        \"name\": \"SensorCluster\"\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -88,15 +88,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://192.168.0.109:48081/api/v1/device",
+					"raw": "http://192.168.1.179:30220/api/v1/device",
 					"protocol": "http",
 					"host": [
 						"192",
 						"168",
-						"0",
-						"109"
+						"1",
+						"179"
 					],
-					"port": "48081",
+					"port": "30220",
 					"path": [
 						"api",
 						"v1",
@@ -181,6 +181,119 @@
 		},
 		{
 			"name": "Get device profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get Device",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.179:48082/api/v1/device",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"179"
+					],
+					"port": "48082",
+					"path": [
+						"api",
+						"v1",
+						"device"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Kuiper rules",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Post Kuiper rules",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"temp_rule5\",\n    \"sql\": \"SELECT temperature FROM temp_threshold WHERE temperature > 30\",\n\"actions\": [\n        {\n            \"rest\": {\n                \"url\": \"http://7750-110-226-89-188.ngrok.io\",\n                \"method\": \"get\",\n                \"sendSingle\": true\n            }\n        },\n        {\n            \"log\": {}\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.1.179:30082/rules",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"179"
+					],
+					"port": "30082",
+					"path": [
+						"rules"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Kuiper streams",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sql\": \"create stream temp_threshold() WITH (FORMAT=\\\"JSON\\\", TYPE=\\\"edgex\\\")\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.1.179:30082/streams",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"179"
+					],
+					"port": "30082",
+					"path": [
+						"streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
 			"request": {
 				"method": "GET",
 				"header": [],
