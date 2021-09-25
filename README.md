@@ -108,3 +108,4 @@ edgex-device-rest-599c579bf5-zbrg8                      1/1     Running   0     
 
 ```
 
+### WIP - Adding Ingress LB to K3s
