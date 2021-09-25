@@ -1,0 +1,99 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: rulesengine
+  name: edgex-kuiper
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: rulesengine
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/edgex-network: "true"
+        io.kompose.service: rulesengine
+    spec:
+      containers:
+      - env:
+        - name: EDGEX_PORT
+          value: "5566"
+        - name: EDGEX_PROTOCOL
+          value: tcp
+        - name: EDGEX_SERVER
+          value: edgex-app-service-configurable-rules
+        - name: EDGEX_SERVICE_SERVER
+          value: http://edgex-core-data:48080
+        - name: EDGEX_TOPIC
+          value: events
+        - name: KUIPER_CONSOLE_LOG
+          value: "true"
+        - name: KUIPER_REST_PORT
+          value: "48075"
+        image: emqx/kuiper:0.4.2-alpine
+        imagePullPolicy: ""
+        name: edgex-kuiper
+        ports:
+        - containerPort: 48075
+        - containerPort: 20498
+        resources: {}
+      hostname: edgex-kuiper
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes: null
+status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: rulesengine
+  name: edgex-kuiper
+spec:
+  type: NodePort
+  ports:
+  - name: "48075"
+    port: 48075
+    targetPort: 48075
+    nodePort: 30082
+  - name: "20498"
+    port: 20498
+    targetPort: 20498
+    nodePort: 31868
+  selector:
+    io.kompose.service: rulesengine
+status:
+  loadBalancer: {}
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: edgex-kuiper
+  annotations:
+    kubernetes.io/ingress.class: "traefik"
+    traefik.ingress.kubernetes.io/rule-type: Path
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /rulesengine
+        pathType: Prefix
+        backend:
+          service:
+            name: edgex-kuiper
+            port:
+              number: 30082
